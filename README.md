@@ -14,3 +14,8 @@ In any case, add `sphinxcontrib_uwu` to the `extensions` list in your `conf.py`,
 
 ## Configuration
 No.
+
+
+## Examples
+
+https://disnyake.readthedocs.io/en/latest/index.html
