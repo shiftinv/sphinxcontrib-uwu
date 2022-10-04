@@ -5,7 +5,7 @@ import re
 from typing import Any
 
 from docutils import nodes
-from docutils.writers.html5_polyglot import HTMLTranslator as BaseTranslator
+from docutils.writers._html_base import HTMLTranslator as BaseTranslator
 from sphinx.application import Sphinx
 from sphinx.writers.html import HTMLTranslator
 
