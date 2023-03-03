@@ -50,9 +50,7 @@ def create_translator(base: type[BaseTranslator]) -> type[BaseTranslator]:
 
             # intentionally not unescaping since the
             # node needs to be reconstructed later
-            text = str(node)
-
-            text = uwuify(text)
+            text = uwuify(str(node))
 
             # this loses other attached node data like the document,
             # but I hope no translator needs that

@@ -23,7 +23,7 @@ repository = "https://github.com/shiftinv/sphinxcontrib-uwu"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-sphinx = "^5.0.0"
+sphinx = ">=5.0.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "~2.20.0"
